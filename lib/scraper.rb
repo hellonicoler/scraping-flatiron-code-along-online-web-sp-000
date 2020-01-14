@@ -32,7 +32,7 @@ class Scraper
   
   # uses CSS selector to grab HTML elements containing a course
   def get_courses
-    
+    self.get_page.css(".post")
   end
   
   # instantiates Course objects with title, schedule, description
