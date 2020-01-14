@@ -36,7 +36,9 @@ class Scraper
   end
   
   # instantiates Course objects with title, schedule, description
+ 
   def make_courses
+ 
   end
 
 
